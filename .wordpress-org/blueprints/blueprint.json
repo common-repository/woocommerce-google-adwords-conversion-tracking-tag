@@ -1,0 +1,20 @@
+{
+  "landingPage": "\/wp-admin\/admin.php?page=wpm",
+  "steps": [
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org\/plugins",
+        "slug": "woocommerce"
+      },
+      "options": {
+        "activate": true
+      }
+    }
+  ]
+}
